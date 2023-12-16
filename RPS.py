@@ -1,7 +1,5 @@
 import random
-
 actions = ['rock', 'paper', 'scissors']
-
 while True:
     x = input('Enter your choice (rock, paper or scissors): ')
 
@@ -27,6 +25,6 @@ while True:
         else:
             print("You lose :( Rock smashes scissors!")
             
-    play_again = input('Play again? (y/n)')
+    play_again = input('Play again ? (y/n)')
     if (play_again.lower() == 'n'):
         break
